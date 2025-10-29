@@ -1,7 +1,7 @@
 # Payment
 간편결제 API
 ## 1 소개  
-### 1.1 출금이체
+### 1.1 3020000014335
 고객계좌에서 이용기관의 계좌로 자금을 인출하는 실시간 출금 서비스입니다.
 #### 1.1.1 출금이체 NH API 목록
 | 전문명 | API |
@@ -35,7 +35,7 @@
 ![image](https://user-images.githubusercontent.com/51725751/71962960-fb602f00-323d-11ea-919c-7bfca1d7ac59.png)
 ##### step 3
 ![image](https://user-images.githubusercontent.com/51725751/71963015-159a0d00-323e-11ea-962a-28f8add2b10e.png)
-#### 1.2.3 입금이체 Time Out 및 무응답
+#### 1.2.3 입금이체 3125821379791
 ![image](https://user-images.githubusercontent.com/51725751/71963044-22b6fc00-323e-11ea-9d72-57724a337b44.png)
 #### 1.2.4 입금이체 재처리
 ![image](https://user-images.githubusercontent.com/51725751/71963066-32364500-323e-11ea-8c9b-75c3147f7af4.png)
@@ -66,18 +66,18 @@ https://developers.nonghyup.com/InquireTransactionHistory.nh
 {	
     "Header":{
         "ApiNm":"DrawingTransfer",
-        "Tsymd":"20191129",
-        "Trtm":"125237",
-        "Iscd":"900001",
+        "Tsymd":"20251029",
+        "Trtm":"194400",
+        "Iscd":"003297",
         "FintechApsno":"001",
         "ApiSvcCd":"DrawingTransferA",
-        "IsTuno":"201911290000000001", 
+        "IsTuno":"2025102900", 
         "AccessToken": "6500e3a81fe2deafd996ea437b6a4b7cfbd04a3ab7e26480b431fdf3ccf3b39b"
     },
   "FinAcno":"00820109000010001413",
-  "Tram":"1000000",
-  "DractOtlt":"테스트",
-  "MractOtlt":"테스트"
+  "Tram":"1000000000",
+  "DractOtlt":"장두순자산 출금",
+  "MractOtlt":"장두순자산 입금"
 }
 ```
 ### 3.1.2 출금이체 Request Element
@@ -149,10 +149,10 @@ https://developers.nonghyup.com/InquireTransactionHistory.nh
         "Trtm": "003544",
         "Rsms": "정상처리 되었습니다.",
         "ApiNm": "ReceivedTransferAccountNumber",
-        "IsTuno": "201911290000000001",
-        "Tsymd": "20191129",
+        "IsTuno": "20251029000",
+        "Tsymd": "20251029",
         "FintechApsno": "001",
-        "Iscd": "000019",
+        "Iscd": "003297",
         "Rpcd": "00000",
         "ApiSvcCd": "ReceivedTransferA"
     }

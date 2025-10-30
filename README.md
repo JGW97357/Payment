@@ -95,15 +95,15 @@ https://developers.nonghyup.com/InquireTransactionHistory.nh
         "Trtm": "125237",
         "Rsms": "정상처리 되었습니다.",
         "ApiNm": "DrawingTransfer",
-        "IsTuno": "201911290000000001",
-        "Tsymd": "20191129",
+        "IsTuno": "112300001",
+        "Tsymd": "20251030",
         "FintechApsno": "001",
-        "Iscd": "900001",
+        "Iscd": "003297",
         "Rpcd": "00000",
         "ApiSvcCd": "DrawingTransferA"
     },
     "FinAcno": "00820100000190001639",
-    "RgsnYmd": "20191124"
+    "RgsnYmd": "20251030"
 }
 ```
 ### 3.1.4 출금이체 Response Element
@@ -118,19 +118,19 @@ https://developers.nonghyup.com/InquireTransactionHistory.nh
 {
   "Header":{
       "ApiNm":"ReceivedTransferAccountNumber",
-      "Tsymd":"20191129",
-      "Trtm":"003544",
-      "Iscd":"000019",
+      "Tsymd":"20251030",
+      "Trtm":"113000",
+      "Iscd":"003297",
       "FintechApsno":"001",
       "ApiSvcCd":"ReceivedTransferA",
-      "IsTuno":"201911290000000001",
+      "IsTuno":"113100001",
       "AccessToken":
-      "791c18f7377be31c8b30b27eba8573de0aac529890c7b18ac722f6120adc5054"},
+      6c52120f58e13fd033fd2f3f50b29765197f4877b26e376351c438ff5f125282\" }
   "Bncd":"011",
   "Acno":"3020000000109",
-  "Tram":"200000",
-  "DractOtlt":"테스트",
-  "MractOtlt":"테스트" 
+  "Tram":"1000000000",
+  "DractOtlt":"장두순자산출금",
+  "MractOtlt":"3125821379791" 
 }
 ```
 ### 3.2.2 농협입금이체 Request Element
